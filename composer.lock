@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c70b2630998c28b93c51f7c1af3c15bd",
+    "content-hash": "1e11ef61708d935fd7408af8174700f2",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -6829,6 +6829,61 @@
                 }
             ],
             "time": "2020-12-08T16:43:38+00:00"
+        },
+        {
+            "name": "symfony/ux-swup",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ux-swup.git",
+                "reference": "d3464c1aad1b70f739c3511945ded98789645a59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ux-swup/zipball/d3464c1aad1b70f739c3511945ded98789645a59",
+                "reference": "d3464c1aad1b70f739c3511945ded98789645a59",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Titouan Galopin",
+                    "email": "galopintitouan@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Swup integration for Symfony",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "swup",
+                "symfony",
+                "ux"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/ux-swup/tree/v1.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-05T18:44:30+00:00"
         },
         {
             "name": "symfony/validator",

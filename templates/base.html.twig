@@ -7,10 +7,20 @@
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
     </head>
-    <body>
-        {% block body %}{% endblock %}
+    <body
+        data-controller="@symfony/ux-swup/swup"
+        data-containers="#main #nav"
+        data-theme="slide"
+    >
+        <div id="nav">
+            <a href="{{ path('default') }}"> Default </a>
+            <a href="{{ path('about') }}">About</a>
+        </div>
+        <div id="main"class="transition-fade" >
+            {% block body %}{% endblock %}
+        </div>
+   </body>
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
-    </body>
 </html>
